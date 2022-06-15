@@ -1,0 +1,8 @@
+2022-06-15 15:56:41.419  INFO 17494 --- [restartedMain] com.example.myapp.MyappApplicationKt     : Starting MyappApplicationKt using Java 18.0.1.1 on gwagtaemin-ui-MacBookPro.local with PID 17494 (/Users/kwaktaemin/workspace/myapp/build/classes/kotlin/main started by kwaktaemin in /Users/kwaktaemin/workspace/myapp)
+2022-06-15 15:56:41.420  INFO 17494 --- [restartedMain] com.example.myapp.MyappApplicationKt     : The following 2 profiles are active: "local", "file-logging"
+2022-06-15 15:56:41.445  INFO 17494 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-15 15:56:41.606  INFO 17494 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-15 15:56:41.614  INFO 17494 --- [restartedMain] com.example.myapp.MyappApplicationKt     : Started MyappApplicationKt in 0.356 seconds (JVM running for 0.565)
+2022-06-15 15:56:41.616  INFO 17494 --- [restartedMain] com.example.myapp.MyappApplication       : I'm info! Hello, world!
+2022-06-15 15:56:41.616  WARN 17494 --- [restartedMain] com.example.myapp.MyappApplication       : I'm warn! Hello, world!
+2022-06-15 15:56:41.616 ERROR 17494 --- [restartedMain] com.example.myapp.MyappApplication       : I'm error! Hello, world!
