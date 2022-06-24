@@ -22,27 +22,15 @@ repositories {
 }
 
 dependencies {
-	implementation("org.springframework.boot:spring-boot-starter")
+	implementation("io.github.microutils:kotlin-logging:1.12.5") // logging
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	implementation("org.jetbrains.kotlin:kotlin-allopen")
 	implementation("org.jetbrains.kotlin:kotlin-noarg")
-
-	// Logging
-	implementation("io.github.microutils:kotlin-logging:1.12.5")
-
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 
-	// MySQL
-	runtimeOnly("mysql:mysql-connector-java")
-
-	compileOnly("org.projectlombok:lombok")
-
-	developmentOnly("org.springframework.boot:spring-boot-devtools")
-
-	annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
-	annotationProcessor("org.projectlombok:lombok")
+	runtimeOnly("mysql:mysql-connector-java")	// MySQL
 
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
