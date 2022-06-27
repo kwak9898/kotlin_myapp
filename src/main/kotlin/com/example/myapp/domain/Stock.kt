@@ -9,7 +9,7 @@ import javax.persistence.Table
 
 @Entity
 @Table(name = "stocks")
-class Stock(
+class Stock (
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
     val id: String,
     val type: String,
@@ -17,5 +17,5 @@ class Stock(
     val code: String,
     val ticker: String,
     val updatedDate: LocalDateTime,
-    val createDate: LocalDateTime,
+    val createdDate: LocalDateTime,
 )
